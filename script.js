@@ -19,6 +19,19 @@ function calculate() {
     }
 }
 
+function reverseNum(){
+    const display = document.getElementById("display").value
+	if(display.startsWith("-")){    
+        document.getElementById("display").value = display.replace('-', '');
+	} else if (display === "0") {
+        //
+    }
+	else {
+      document.getElementById("display").value = "-".concat(display)
+	}
+}
+
+
 document.onkeydown = function(event) {
 
 	let key_press = String.fromCharCode(event.keyCode);

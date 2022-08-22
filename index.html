@@ -21,7 +21,7 @@
         <div class="key-line">
           <button id="clear-display" value="ce" onclick="removeLastDigit()">CE</button>
           <button id="clear-display" value="c" onclick="clearDisplay()">C</button>
-          <button value="." onclick="display('.')">.</button>
+          <button value="+-" onclick="reverseNum()">±</button>
           <button value="÷" onclick="display('/')" >÷</button>
         </div>
         <div class="key-line">
@@ -43,6 +43,7 @@
           <button value="+" onclick="display('+')">+</button>
         </div>
         <div class="key-line">
+          <button value="." onclick="display('.')">.</button>
           <button value="0" onclick="display('0')">0</button>
           <button id="result" value="=" onclick="calculate()">=</button>
         </div>
