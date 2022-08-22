@@ -1,81 +1,81 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #fafafa;
-  }
-  
-  .calculator {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 25rem;
-    width: 18rem;
-    background-color: rgb(53, 73, 90);
-    border-radius: 20px;
-    padding: 1rem;
-  }
-  
-  .screen {
-    width: 100%;
-  }
-  
-  .display {
-    width: 100%;
-    border-radius: 6px;;
-    padding: .5rem;
-    font-size: 2rem;
-    text-align: right;
-    color: rgb(78, 78, 78);
-  }
-  
-  .keyboard {
-    display: flex;
-    flex-direction: column;
-    gap: .75rem;
-    width: 100%;
-  }
-  
-  .key-line {
-    display: flex;
-    justify-content: space-between;
-    gap: .75rem
-  }
-  
-  button {
-    width: 3rem;
-    border: none;
-    border-radius: 6px;
-    padding: .5rem;
-    font-size: 1.25rem;
-    background-color: rgb(101, 119, 131);
-    color: white;
-    transition: 0.5s; 
-  }
-  
-  button:hover {
-    opacity: 0.7;
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-  
-  #clear-display {
-    background-color: rgb(176, 48, 52);
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .result-line {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fafafa;
+}
 
-  #result {
-    width: 100%;
-  }
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25rem;
+  width: 18rem;
+  background-color: rgb(53, 73, 90);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.screen {
+  width: 100%;
+}
+
+.display {
+  width: 100%;
+  border-radius: 6px;;
+  padding: .5rem;
+  font-size: 2rem;
+  text-align: right;
+  color: rgb(78, 78, 78);
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  width: 100%;
+}
+
+.key-line {
+  display: flex;
+  justify-content: space-between;
+  gap: .75rem
+}
+
+button {
+  width: 3rem;
+  border: none;
+  border-radius: 6px;
+  padding: .5rem;
+  font-size: 1.25rem;
+  background-color: rgb(101, 119, 131);
+  color: white;
+  transition: 0.5s; 
+}
+
+button:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#clear-display {
+  background-color: rgb(176, 48, 52);
+}
+
+.result-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#result {
+  width: 73%;
+}
