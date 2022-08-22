@@ -1,3 +1,3 @@
 # Calculator
 
-<img width="354" alt="image" src="https://user-images.githubusercontent.com/65931231/185725619-21ac945d-4e5d-436d-8199-7c28ac7ce2bf.png">
+<img width="357" alt="image" src="https://user-images.githubusercontent.com/65931231/186035089-bfdb131f-1556-4b3f-9430-e276fca067bb.png">
