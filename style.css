@@ -70,12 +70,6 @@ button:hover {
   background-color: rgb(176, 48, 52);
 }
 
-.result-line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #result {
   width: 73%;
 }
